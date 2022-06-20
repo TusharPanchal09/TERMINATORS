@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+    </style>
+</head>
+<body bgcolor="grey">
+<em>
+    <h3>
+    {% for i in explanation %}
+    {{i}}
+    <br><br>
+    {% endfor %}
+    <br>
+</h3>
+    <h2>
+Maximum profit value in Knapsack : {{result}}
+        Rs</h2>
+    </em>
+</body>
+</html>
